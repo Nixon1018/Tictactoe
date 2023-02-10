@@ -3,7 +3,7 @@ package org.example;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-class tictoe
+class Tictoe
 {
     private  static  final Logger logger = Logger.getLogger("Infologging");
     char[][] arr ;
@@ -161,7 +161,7 @@ public class Main {
         int c;
         logger.info("Enter the dimensions:");
         int dim = sc.nextInt();
-        tictoe t = new tictoe();
+        Tictoe t = new Tictoe();
         while(dim%2==0)
         {
             logger.info("Enter a odd number:");
